@@ -46,24 +46,31 @@ const Experience: React.FC = () => {
 
   return (
     <section id="experience" className="experience fade-in">
-      <h2 className="section-title">Work Experience</h2>
+      <h2 className="section-title">Experience</h2>
       <div className="timeline">
-        {experiences.map((exp, index) => (
-          <div key={index} className="timeline-item">
-            <div className="timeline-date">{exp.date}</div>
-            <h3 className="timeline-title">{exp.title}</h3>
-            <div className="timeline-company">{exp.company}</div>
-            <p>
-              {exp.description.map((item, i) => (
-                <React.Fragment key={i}>
-                  • {item}
-                  {i < exp.description.length - 1 && <br />}
-                </React.Fragment>
-              ))}
-            </p>
-          </div>
-        ))}
+        <div className="timeline-item">
+          <div className="timeline-date">2021.01 ~</div>
+          <h3 className="timeline-title">Calyx Software 재직 중</h3>
+          <div className="timeline-company">Mortgage 관련 솔루션 개발</div>
+        </div>
+        <div className="timeline-item">
+          <div className="timeline-date">2019.12 ~ 2020.08</div>
+          <h3 className="timeline-title">スマートアイエンジー(SmartING) 개발부 사원</h3>
+          <div className="timeline-company">입,출하 및 재고관리를 위한 물류관리 시스템 개발</div>
+        </div>
       </div>
+      <h2 className="section-title" style={{marginTop: '2rem'}}>Certificate</h2>
+      <ul style={{marginLeft: '2rem', marginBottom: '2rem'}}>
+        <li>2023.04 &nbsp; AZ-900</li>
+        <li>2019.05 &nbsp; 정보처리기사</li>
+        <li>2015. &nbsp; 워드 / 컴퓨터 활용능력</li>
+      </ul>
+      <h2 className="section-title">Overseas Experience</h2>
+      <ul style={{marginLeft: '2rem'}}>
+        <li>2019.12 ~ 2020.08 &nbsp; 일본 취업</li>
+        <li>2017.09 ~ 2018.02 &nbsp; 중국 어학연수</li>
+        <li>2024.04 ~ 2024.08 &nbsp; 영국 어학연수</li>
+      </ul>
     </section>
   );
 };

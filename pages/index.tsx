@@ -74,7 +74,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>김개발 - Full Stack Developer</title>
+        <title>김영인 - Full Stack Developer</title>
         <meta name="description" content="Full Stack Developer Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

@@ -11,22 +11,7 @@ const Contact: React.FC = () => {
     {
       icon: '📧',
       title: 'Email',
-      content: 'kim.developer@email.com'
-    },
-    {
-      icon: '📱',
-      title: 'Phone',
-      content: '+82 10-1234-5678'
-    },
-    {
-      icon: '💼',
-      title: 'LinkedIn',
-      content: 'linkedin.com/in/kimdeveloper'
-    },
-    {
-      icon: '🐙',
-      title: 'GitHub',
-      content: 'github.com/kimdeveloper'
+      content: '2021calyx@gmail.com'
     }
   ];
 
@@ -34,7 +19,7 @@ const Contact: React.FC = () => {
     <section id="contact" className="contact fade-in">
       <h2 className="section-title">Get In Touch</h2>
       <p style={{ fontSize: '1.2rem', marginBottom: '2rem' }}>
-        새로운 기회나 협업 제안을 언제나 환영합니다!
+        새로운 기회나 협업 제안을 언제나 환영합니다!<br />
       </p>
       
       <div className="contact-grid">
